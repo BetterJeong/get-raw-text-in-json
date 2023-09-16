@@ -30,7 +30,7 @@ def process_all_json_files_in_directory(input_directory, output_directory):
                 text_file.write(raw_text + '\n')
 
 
-input_directory = 'json_files'  # JSON 파일 경로
+input_directory = '.'  # JSON 파일 경로
 output_directory = 'text_files'  # 텍스트 파일 경로
 
 if not os.path.exists(output_directory):
